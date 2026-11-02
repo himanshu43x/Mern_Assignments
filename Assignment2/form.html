@@ -1,20 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Careers | Job Application</title>
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | Job Application</title>
+
 </head>
+
 <body>
-	<main>
-		<header>
-			<h1>Job Application Form</h1>
-			<p class="intro">Apply to join our team. Fields marked <span aria-hidden="true">*</span> are required.</p>
-		</header>
-		<form action="#" method="post" enctype="multipart/form-data">
-			
-		</form>
-	</main>
+    <main>
+        <header>
+            <h1>Job Application Form</h1>
+            <p class="intro">Apply to join our team. Fields marked <span aria-hidden="true">*</span> are required.</p>
+        </header>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <legend>Personal Information</legend>
+            <p>
+                <label for="fname">First Name *</label><br>
+                <input type="text" id="fname" placeholder="First Name" name="fname" required>
+            </p>
+            <p>
+                <label for="lname">Last Name *</label><br>
+                <input type="text" id="lname" placeholder="Last Name" name="lname" required>
+            </p>
+            <p>
+                <label for="email">Email *</label><br>
+                <input type="email" id="email" placeholder="Email" name="email" required>
+            </p>
+            <p>
+                <label for="password">Enter your Password *</label><br>
+                <input type="password" id="password" placeholder="Password" name="password" required>
+            </p>
+            <p>
+                <label for="phone">Phone *</label><br>
+                <input type="tel" id="phone" placeholder="Phone" name="phone" required>
+            </p>
+            <p>
+                <label for="portfolio">Portfolio Url</label><br>
+                <input type="link" id="portfolio" placeholder="Portfolio Url" name="portfolio">
+            </p>
+            <p>
+                <label for="age">Enter Your Age *</label><br>
+                <input type="number" id="age" placeholder="Ex.22" name="age" required >
+            </p>
+            <p>
+            <p> Select Your Gender:</p>
+             <input type="radio" id="maleGender" name="gender" value="maleGender">
+            <label for="maleGender"> Male </label>
+             <input type="radio" id="femaleGender" name="gender" value="femaleGender" /> 
+             <label for="femaleGender"> Female</label>
+            <input type="radio" id="otherGender" name="gender" value="otherGender">
+            <label for="otherGender"> Other / Not preffer </label>
+            
+            </p>
+
+        </form>
+    </main>
 </body>
+
 </html>
