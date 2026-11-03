@@ -325,7 +325,34 @@ main {
 }
 
 
+/* Footer */
+.footer {
+    background-color: #153e3b;
+    color: white;
 
+    padding: 22px 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-logo {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.footer p {
+    font-size: 13px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 18px;
+}
 
 /* Responsive Design */
 @media (max-width: 700px) {
