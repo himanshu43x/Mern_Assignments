@@ -20,3 +20,91 @@ body {
     color: #1c394d;
     line-height: 1.6;
 }
+/* 
+/* ===== Universal CSS ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #edf3f7;
+    color: #1c394d;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+    background-color: #153f42;
+    padding: 18px 35px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a6d8ce;
+}
+
+
+/* =================================
+   4. CLASS SELECTORS - HERO
+================================= */
+
+.hero {
+    background-color: #dfede6;
+    border: 2px solid #d1e0df;
+    padding: 45px 35px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-content h3 {
+    color: #187477;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.hero-content h1 {
+    font-size: 44px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #187477;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #115658;
+}
+
