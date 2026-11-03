@@ -211,3 +211,79 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
+/* =================================
+   10. FOOTER
+================================= */
+
+#footer {
+    background-color: #153f42;
+    color: white;
+    padding: 18px 25px;
+    margin: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+}
+
+
+/* =================================
+   11. RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 768px) {
+
+    #navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-list {
+        gap: 15px;
+    }
+
+    #footer {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
