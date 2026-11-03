@@ -323,3 +323,54 @@ main {
 .contact-form button:hover {
     background-color: #153e3b;
 }
+
+
+
+
+/* Responsive Design */
+@media (max-width: 700px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        min-height: 130px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mountain-one {
+        left: -15%;
+    }
+
+    .mountain-two {
+        right: -15%;
+    }
