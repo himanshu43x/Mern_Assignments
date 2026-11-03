@@ -112,3 +112,214 @@ main {
     background-color: white;
     transform: translateY(-3px);
 }
+
+
+/* Services Section */
+.services {
+    padding: 30px 20px;
+}
+
+.services h2,
+.about h2,
+.contact h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #1c4039;
+}
+
+.section-description {
+    color: #60736e;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    flex: 1;
+    min-height: 165px;
+
+    padding: 20px;
+
+    background-color: #f3f7f4;
+    border-radius: 9px;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.10);
+}
+
+.card-one {
+    border: 2px solid #b8d4ca;
+}
+
+.card-two {
+    border: 2px solid #e4b85f;
+}
+
+.card-three {
+    border: 2px solid #68968a;
+}
+
+.card-icon {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* About Section */
+.about {
+    padding: 10px 20px 30px;
+}
+
+.about-image {
+    height: 125px;
+    background-color: #d9e9df;
+
+    position: relative;
+    overflow: hidden;
+
+    border-radius: 8px;
+    border: 1px solid #c4d9ce;
+}
+
+.sun {
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    background-color: #ffedb9;
+    border-radius: 50%;
+
+    top: 15px;
+    right: 15%;
+}
+
+.mountain {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+}
+
+.mountain-one {
+    left: 5%;
+    border-left: 180px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 90px solid #81a99a;
+}
+
+.mountain-two {
+    right: 5%;
+    border-left: 190px solid transparent;
+    border-right: 190px solid transparent;
+    border-bottom: 65px solid #416d63;
+}
+
+.about-content {
+    padding: 22px 5px 5px;
+}
+
+.small-heading {
+    color: #bd9149;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-content h2 {
+    margin-bottom: 12px;
+}
+
+.about-content p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.address {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+    padding: 25px;
+    background-color: #f7faf8;
+}
+
+.contact-heading {
+    margin-bottom: 20px;
+}
+
+.contact-heading p:last-child {
+    color: #64766f;
+    margin-top: 8px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #a9bdb5;
+    border-radius: 4px;
+
+    font-size: 14px;
+    outline: none;
+    background-color: white;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #286c5c;
+    box-shadow: 0 0 4px rgba(40,108,92,0.3);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 160px;
+    padding: 12px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #216c5d;
+    color: white;
+
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #153e3b;
+}
