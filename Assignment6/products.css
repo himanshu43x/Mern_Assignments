@@ -49,8 +49,7 @@ h1 {
     border: 1px solid #cbd9e2;
     border-radius: 10px;
 
-    transition: transform 0.3s ease,
-                box-shadow 0.3s ease;
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
 }
 
 /* Product Image */
