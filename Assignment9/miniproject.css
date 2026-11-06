@@ -208,3 +208,51 @@ a {
     color: white;
     font-size: 13px;
 }
+
+/* =================================
+   TABLET RESPONSIVE - 768px
+================================= */
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        padding: 18px 22px;
+    }
+
+    .hero {
+        padding: 30px 22px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .features {
+        padding: 28px 22px;
+    }
+
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-section {
+        padding: 15px 22px 25px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery img {
+        height: 170px;
+    }
+
+    .cta {
+        padding: 15px 22px 30px;
+    }
+
+    .footer {
+        padding: 18px 22px;
+    }
+
+}
